@@ -1,7 +1,6 @@
 Add your answers to the Algorithms exercises here.
 
 1A) **O(n) or linear time, `n` is only processed once in the equation.**
-
 ```py
 a)  a = 0
     while (a < n * n * n) # n^3
@@ -20,7 +19,6 @@ b)  sum = 0
 ```
 
 1C) **O(n) or linear time, it has to process every bunny until all bunnies have been processed. This looks like a recursive pattern to me.**
-
 ```py
 c)  bunnyEars = function(bunnies) {
       if (bunnies == 0) return 0

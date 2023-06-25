@@ -5,10 +5,10 @@ class BinarySearchTree:
         self.right = None
 
     def depth_first_for_each(self, cb):
-        pass
+        stack = [stack]  # LIFO
 
     def breadth_first_for_each(self, cb):
-        queue = [self]  # Add root node to queue
+        queue = [self]  # Add root node to queue, FIFO
 
         while queue:  # while there's a node in the queue
             discovered_node = queue.pop(0)
